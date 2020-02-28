@@ -1,0 +1,141 @@
+img{
+    width: 500px;
+}
+
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    line-height: 60px;
+    　　　　/* headerの高さとline-heightを同じ値にすると、上下中央になる  */
+}
+
+header ul li{
+    float: left;
+    list-style: none;
+    padding-right: 30px;
+}
+
+
+main{
+    clear: left;
+}
+
+.main-container{
+    width:95%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+
+
+
+.left{
+    float: left;
+    width: 73%;
+    height:1300px;
+    margin-bottom: 40px;
+    
+    
+}
+
+
+.left h1{
+    border-left:5px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+.left img{
+    width: 100%;  
+}
+
+
+.left .pic-box1{
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.left .pic-box1 img{
+    width: 170px;
+    margin: 20px 10px -10px 20px;
+}
+
+.left .pic1{
+    display: inline-block;
+}
+
+
+
+.left .pic-box2{
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+}
+
+.left .pic-box2 img{
+    width: 170px;
+    margin: 20px 10px -10px 20px;
+}
+
+.left .pic2{
+    display: inline-block;
+}
+
+
+
+
+.center{
+    float: left;
+    width: 2%;
+    height: 1300px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.right{
+    float: left;
+    width: 25%;
+    height: 1300px;
+    margin-bottom: 40px;
+    
+    margin-top: 11px;
+    /*左と右の点線の位置が合わず、margi-topで調整いい？*/
+}
+
+
+
+.right h2{
+    border-bottom:1px black dashed;
+}
+
+.right ul{
+    list-style: none;
+}
+
+.right li{
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    
+}
+
+
+footer{
+    clear:left;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color:black;
+    text-align:center;
+    line-height:60px;
+    
+}
+
+
+
+
